@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.nav-bar{
+    height:80px;
+    background-color:rgb(251 191 36);
+    padding:20px;
+}
+.sub-nav{
+    display:flex;
+}
+
+.first-image{
+    height:50px;
+    width:80px;
+    margin-left:240px;
+}
+
+.nav-bar h1{
+    margin-left:16px;
+    padding-top:5px;
+}
+
+/* MAin section start from here */
+
+
+.main-div{
+    height:100%;
+}
+
+.section-class{
+    height:100px;
+    background-color:rgb(255 255 255);
+    border-radius:8px;
+
+    margin-top:100px;
+    margin-left:270px;
+    margin-right:270px;
+    border:1px solid black;
+
+}
+.section-class .heading-one{
+    padding-top:42px;
+    padding-left:8px;
+    float:left;
+}
+
+.section-class .heading{
+    padding-top:42px;
+    padding-right:40px;
+    float:right;
+}
+
+
+/* sectoion site start from here */
+
+.section-site{
+    margin-top:40px;
+    height:300px;
+    margin-left:270px;
+    margin-right:270px;
+    border:1px solid gray;
+    border-radius:8px;
+}
+
+.section-site .first{
+    display:flex;
+    margin:8px;
+    border-bottom:1px solid gray;
+}
+.section-site .first img,.section-site .second img{
+    height:120px;
+    margin-left:25px;
+
+}
+
+.section-site .second{
+    display:flex;
+    margin:8px;
+}
+
+.first h1,.second h1{
+    margin-left:80px;
+}
+.first h2,.second h2{
+    margin-left:310px;
+}
+
+
+.last-one,final-one{
+    margin-left:80px;
+}
+
+.last-one input{
+    width:20px;
+    height:15px;
+}
