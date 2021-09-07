@@ -24,7 +24,8 @@
     <div class="main-div">
         <section class="section-class">
             <h2 class="heading-one">My cart<span>(2 items)</span></h2>
-            <h2 class="heading">Total <span>0</span></h2>
+            <h2 class="heading">Total <span id="first">0</span></h2>
+            
         </section>
     
     
@@ -37,13 +38,13 @@
                 ঝংকার মাহবুব</h1>
 
                 <div class="last-one">
-                    <input type="button" value="+">
-                    <span>0</span>
-                    <input type="button" value="-">
+                    <input id="btn1" type="button" onclick="up()" value="+">
+                    <span id="second" >0</span>
+                    <input id="btn2" type="button" onclick="down()" value="-">
                 </div>
            
     
-            <h2>Usd $ <span>0</span></h2>
+            <h2>Usd $ <span id="third">0</span></h2>
         </section>
         <section class="second">
             <img src="images/book6.jpg" alt="">
@@ -51,12 +52,12 @@
                 ফ্রিল্যান্সার নাসিম</h1>
 
                 <div class="final-one">
-                    <input type="button" value="+">
-                    <span>0</span>
-                    <input type="button" value="-">
+                    <input id="btn3" type="button" onclick="upeer()" value="+">
+                    <span id="forth">0</span>
+                    <input btn="btn4" type="button" onclick="downer()" value="-">
                 </div>
                
-                <h2>Usd $ <span>0</span></h2>
+                <h2>Usd $ <span id="fifth">0</span></h2>
         </section>
 
 
@@ -75,7 +76,7 @@
 
 
 
-
+<script src="script.js"></script>
 
 
 </body>
